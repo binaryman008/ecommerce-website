@@ -73,10 +73,11 @@ body {
     border-bottom: 2px solid #eaeaea;
 }
 
-#section-a a:hover {
+.home-image img:hover {
     color: white;
     /* background-color: palevioletred; */
     transition: all ease 0.3s;
+    opacity: 0.7;
 }
 
 
@@ -130,6 +131,7 @@ body {
 #footer-id {
     margin-top: 1.8em;
     margin-left: 1.2em;
+    padding-right: 3em;
 }
 
 #photo {
@@ -217,10 +219,11 @@ ul {
     margin-bottom: 4%;
 }
 
-#section-a a:hover {
+
+/* #section-a a:hover {
     opacity: 0.7;
     text-decoration: none;
-}
+} */
 
 @media(min-width: 700px) {
     .grid-2 {
@@ -263,6 +266,9 @@ ul {
         margin-top: 5em;
         margin-left: 5em;
         margin-bottom: 5em;
+    }
+    #footer-id {
+        padding-right: em;
     }
     .grid-checkout {
         display: grid;
